@@ -9,8 +9,6 @@ HLK-LD2420-v2.0 là module cảm biến hiện diện người (Human Presence) 
 *   **Giao tiếp:** UART (Mặc định cấu hình trong code là 115200 bps).
 *   **Ngõ ra phụ:** Chân OUT (OT2) xuất mức logic (3.3V khi có người).
 
----
-
 # Sơ đồ kết nối (Wiring Diagram)
 
 Hệ thống sử dụng giao tiếp Serial2 của ESP32 để đọc dữ liệu thô từ Radar.
@@ -21,9 +19,8 @@ Hệ thống sử dụng giao tiếp Serial2 của ESP32 để đọc dữ liệ
 | **GND** | GND | Tiếp địa (GND) |
 | **OT1 (TX)** | GPIO 4 | Truyền dữ liệu UART sang ESP32 (RX_PIN) |
 | **RX** | GPIO 5 | Nhận lệnh UART từ ESP32 (TX_PIN) |
-| **OT2** | [NC] | Output tín hiệu Logic (Không dùng trong code này) |
+| **OT2** | | Output tín hiệu Logic (Không dùng trong code này) |
 
----
 
 # Tính năng mã nguồn
 Mã nguồn được phát triển với tư duy hệ thống quản lý thông minh, bao gồm:
