@@ -15,10 +15,10 @@ Hệ thống sử dụng giao tiếp Serial2 của ESP32 để đọc dữ liệ
 
 | Chân LD2420-v2 | Chân ESP32 | Chức năng |
 | :--- | :--- | :--- |
-| **3V3** | 3.3V | Cấp nguồn 3.3V |
-| **GND** | GND | Tiếp địa (GND) |
-| **OT1 (TX)** | GPIO 4 | Truyền dữ liệu UART sang ESP32 (RX_PIN) |
-| **RX** | GPIO 5 | Nhận lệnh UART từ ESP32 (TX_PIN) |
+| **3V3** | 3.3V | Nguồn |
+| **GND** | GND | Nối đất |
+| **OT1 (TX)** | GPIO 4 | Truyền dữ liệu UART|
+| **RX** | GPIO 5 | Nhận lệnh UART |
 | **OT2** | | Output tín hiệu Logic (Không dùng trong code này) |
 
 
